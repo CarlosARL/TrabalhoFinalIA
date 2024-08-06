@@ -35,4 +35,3 @@ Este repositório contém um modelo NeSy Learner e questões relacionadas, desen
 
 - Certifique-se de que todos os arquivos necessários (`NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`, `trains-100-mod.csv`) estejam no mesmo diretório.
 - Se houver dependências faltando, instale-as usando `pip`.
-- Este README.md foi escrito de acordo com as informações fornecidas. Adapte-o conforme necessário para refletir qualquer informação adicional ou específica do seu projeto. 
