@@ -1,0 +1,32 @@
+ Visão Geral dos Arquivos
+- `NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`: Este é o notebook principal que contém o modelo e as questões. Este é o notebook que deve ser rodado.
+- `data.ipynb`: Este notebook foi usado para preprocessar os dados do arquivo `trains-100.csv`.
+- `trains-100.csv`: O dataset original usado para preprocessamento.
+- `trains-100-mod.csv`: Os dados processados resultantes, usados pelo notebook principal.
+
+ Passos para Rodar o Notebook Principal
+
+1. Configurar o Ambiente:
+
+   - Instale os pacotes necessários:
+     
+     pip install notebook pandas numpy scikit-learn
+     
+
+2. Preparar os Dados:
+   - Certifique-se de que `trains-100-mod.csv` está presente no mesmo diretório que `NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`. Se não estiver, você precisará rodar `data.ipynb` para gerar o arquivo a partir de `trains-100.csv`.
+
+3. Rodar o Notebook Principal:
+   - Inicie o Jupyter Notebook:
+     
+     jupyter notebook
+     
+   - Na interface do Jupyter Notebook, navegue até o diretório que contém `NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`.
+   - Abra `NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`.
+   - Rode todas as células do notebook selecionando Cell > Run All no menu ou pressionando `Shift + Enter` em cada célula.
+
+ Notas
+- Certifique-se de que todos os arquivos necessários (`NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb`, `trains-100-mod.csv`) estejam no mesmo diretório.
+- Se houver dependências faltando, instale-as usando `pip`.
+
+Seguindo esses passos, você deverá ser capaz de rodar o notebook principal `NeSy_Learner_Michalsky_Colab_1_e_2_e_3c.ipynb` e explorar o modelo e as questões contidas nele.
